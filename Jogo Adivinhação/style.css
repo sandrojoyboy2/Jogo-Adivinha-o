@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+
+}
+
+section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 2em;
+   padding: 60px 80px;
+   background-color: #0883da34;
+   max-width: 535px;
+   border-radius: 40px;
+   border: 1px solid #0883da;
+}
+section .txt{
+   color: #fff;
+   text-align: center;
+}
+section .txt h1{
+    text-shadow: 1px 1px 1px #000;
+    font-size: 32px;   
+}
+section .txt p{
+    font-size: 18px;
+    margin-top: 10px;
+    border: dashed #0C8CE9 1px;
+    padding: 5px ;
+}
+section .input-button{
+    display: flex;
+    flex-direction: column;
+}
+
+section .input-button input{
+    height: 2em;
+    padding: 0 4em 0 4em;
+    text-align: center;
+    border: 1px solid #0C8CE9;
+    font-size: 18px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    margin-top: 100px;
+}
+section .input-button input::placeholder{
+    color: #fff;
+}
+section .input-button button{
+    height: 2em;
+    padding: 0 4em 0 4em;
+    text-align: center;
+    background-color: #0C8CE9;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+section .input-button button:hover{
+    background-color: #0883da;
+}
+
+section .Tentativas p{
+    color: #fff;
+    margin-top: 25px;
+    line-height: 1px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    section{
+        margin-top: 1em;
+        max-width: 370px;  
+     }
+
+     body{
+        background-image: url(/img/Child\ in\ Wizard\ Hat.jpeg);
+     }
+
+     section .txt h1{
+        font-size: 20px; 
+        margin-bottom: 20px;  
+    }
+
+    section .input-button input {
+        font-size: 16px;
+        
+    }
+    section .input-button button {
+        font-size: 16px;  
+    }
+    section .Tentativas p {
+        font-size: 12px;
+        
+    }
+
+  }
